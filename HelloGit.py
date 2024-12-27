@@ -1,5 +1,13 @@
-print("Hello Git!")
-print('Индексация - это важно')
-print('Create new branch')
-for num in range(10):
-        print(num,end=' ')
+import b
+print('Hello, Git!')
+print('Indexing is important!')
+
+ind = 0
+sum = 0
+
+while ind <= 9:
+        sum += ind
+        print(sum)
+        ind += 1
+
+print(b.any_funk(2,sum))
