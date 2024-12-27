@@ -11,7 +11,7 @@ while ind <= 9:
         print(sum)
         ind += 1
 
-print(b.any_func(2, sum))
+print(b.any_funk(2, sum))
 print(f'\nYour current directory: {os.getcwd()}')
 
 s = 'Version Control System'
